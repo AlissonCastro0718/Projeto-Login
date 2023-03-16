@@ -6,3 +6,46 @@ CORES
 -Roxo: #5F2C82
 
 */
+*{
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+padding: 0px;
+margin:  0px;
+box-sizing: border-box;
+}
+
+body{
+background-color:#5F2C82 ;
+width: 100vw;
+height: 100vh;
+
+}
+main{
+position: relative;
+width: 100vw;
+height: 100vh;
+}
+
+#login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#img{
+    display: block;
+    background: #5F2C82 url(../images/build.jpg);
+    background-size: cover;
+    height: 200px;
+}
+
+#form{
+    display: block;
+    padding: 10px;
+}
