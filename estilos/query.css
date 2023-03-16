@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+
+@media screen and (min-width:770px) and (max-width:989px){
+/* Tablet */
+body{
+    background-image: linear-gradient(to top,#49A09D,#5F2C82);
+}
+
+#login{
+    width: 90vw;
+}
+#img{
+    float:left;
+    width: 30%;
+    height: 100%;
+}
+#form{
+    float:right;
+    width: 70%;
+}
+}
+
+@media screen and (min-width:990px){
+    /* pc */
+body{
+    background-image: linear-gradient(to top,#49A09D,#5F2C82);
+}
+#login{
+    width:989px;
+}
+#img{
+   float: left;
+    width: 50%;
+    height: 100%;
+
+}
+#form{
+float: right;
+width: 50%;
+
+ }
+}
