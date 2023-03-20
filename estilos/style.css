@@ -51,3 +51,12 @@ height: 100vh;
     display: block;
     padding: 10px;
 }
+
+#form > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#form > p{
+    font-size: .8em;
+}
