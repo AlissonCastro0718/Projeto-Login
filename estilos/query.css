@@ -10,6 +10,7 @@ body{
 
 #login{
     width: 90vw;
+    height: 280px;
 }
 #img{
     float:left;
@@ -29,6 +30,7 @@ body{
 }
 #login{
     width:989px;
+    height:350px ;
 }
 #img{
    float: right;
@@ -46,5 +48,6 @@ width: 50%;
  }
  #form > p{
     font-size: 1.2em;
+    margin: 20px 0px;
 }
 }
